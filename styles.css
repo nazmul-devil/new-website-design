@@ -1,35 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* font-family: "Inter", serif; */
+/* font-family: 'Merriweather', serif; */
+* {
     margin: 0;
     padding: 0;
 }
-#section-1{
+
+#section-1 {
     border-radius: 16px;
 
-    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) ,url("images/Banner\ Image.png");
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("images/Banner\ Image.png");
     width: 1320px;
     height: 600px;
     background-size: cover;
     margin: 0 auto;
     border: 16px;
 }
-#section-1 .newyear{
+
+#section-1 .newyear {
     font-family: 'Merriweather', serif;
-    color:rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding: 177px 344px 177px 344px;
 }
-#section-1 .newyear p{
-   font-size: 32px;
-   font-weight: 400px; 
-   text-align: center;
-   margin-bottom: 16px;
-}
-#section-1 .newyear h1{
-    font-size: 72px;
-    font-weight: 900px; 
+
+#section-1 .newyear p {
+    font-size: 32px;
+    font-weight: 400px;
     text-align: center;
- }
+    margin-bottom: 16px;
+}
+
+#section-1 .newyear h1 {
+    font-size: 72px;
+    font-weight: 900px;
+    text-align: center;
+}
+
+#section-2 h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom:48px ;
+}
+
+#section-2 p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#section-2 h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+#section-2 .happy-new-year{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+#section-2 .happy-new-year img{
+width: 802.9px;
+height: 500px;
+}
