@@ -43,7 +43,7 @@
 
 #section-2 h1 {
     color: rgb(255, 0, 0);
-    font-family:"Inter";
+    font-family: "Inter";
     font-size: 88px;
     font-weight: 700;
     line-height: 107px;
@@ -66,7 +66,7 @@
 
 #section-2 h3 {
     color: rgb(7, 2, 17);
-    font-family:"Inter";
+    font-family: "Inter";
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
@@ -94,35 +94,39 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width:1320px;
-    height:600px;
-    margin:auto;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
 }
-.welcome-party{
+
+.welcome-party {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:69.01px 138px 67.23px 126px;
+    padding: 69.01px 138px 67.23px 126px;
 }
-.welcome-party .welcome-party-text h1{
+
+.welcome-party .welcome-party-text h1 {
     color: rgb(255, 255, 255);
-font-family: 'Merriweather';
-font-size: 64px;
-font-weight: 900;
-line-height: 88px;
-letter-spacing: 11%;
-text-align: left;
+    font-family: 'Merriweather';
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
 }
-.welcome-party .welcome-party-text p{
+
+.welcome-party .welcome-party-text p {
     color: rgba(255, 255, 255, 0.8);
-font-family: "Inter";
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.welcome-party .welcome-party-text a{
+
+.welcome-party .welcome-party-text a {
     color: rgb(255, 255, 255);
     font-family: "Inter";
     font-size: 20px;
@@ -131,10 +135,70 @@ text-align: left;
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: none; 
-    hover: rgb(207, 196, 198); 
+    text-decoration: none;
+    hover: rgb(207, 196, 198);
 }
-.button-1{
+
+.button-1 {
     margin-top: 48px;
-    margin-left:32px ;
+    margin-left: 32px;
+}
+
+#section-4 {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.party-details {
+    padding: 100px 385px 45px 385px;
+}
+
+.party-details p {
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.button-2 {
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    position: relative;
+    width: 167px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 16px 32px 16px 32px;
+ 
+
+}
+.button-2 button{
+font-family: "Inter";
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color:rgb(255, 255, 255) ;
+background-color:rgb(255, 0, 0);
+box-shadow: none;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+hover: darkred;
 }
